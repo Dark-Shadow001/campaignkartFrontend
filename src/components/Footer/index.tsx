@@ -1,0 +1,130 @@
+import React from "react";
+import Contact from "../Contact";
+import {
+  BiLogoFacebook,
+  BiLogoInstagram,
+  BiLogoTwitter,
+  BiSolidPhoneCall,
+} from "react-icons/bi";
+
+import Link from "next/link";
+
+const Footer = () => {
+  return (
+    <div className=" bg-brand_darkgray px-10 md:px-20">
+      <div className="branding py-6 flex flex-wrap md:justify-between items-center border-b border-b-brand_gray">
+        <div className="text-white font-bold text-2xl">
+          <p>CampaignKart Business Consulting Group</p>
+        </div>
+        <div className="pt-4 lg:pt-0">
+          <Link shallow href="/contact">
+            <Contact />
+          </Link>
+        </div>
+      </div>
+      <div className="py-10 flex lg:justify-between flex-wrap border-b border-b-brand_gray">
+        <div className="w-full lg:w-3/12 ">
+          <div className="">
+            <p className="text-2xl tracking-wider text-white font-semibold">
+              Campaign<span className="text-brand_secondary">Kart</span>
+            </p>
+            <p className="text-brand_gray text-sm py-4 xl:pr-20">
+              We help you achieve your business goals through data driven
+              digital marketing strategies. Our performance-focused campaigns
+              deliver real ROI.
+            </p>
+            <div className="socials-container flex items-center space-x-4 pr-20">
+              <Link
+                target="_blank"
+                href={"https://www.facebook.com/profile.php?id=100084750135073"}
+              >
+                <div className="rounded-full border border-brand_gray  text-lg text-white p-3">
+                  <BiLogoFacebook />
+                </div>
+              </Link>
+              <Link target="_blank" href={"https://twitter.com/campaignkart"}>
+                <div className="rounded-full border border-brand_gray  text-lg text-white p-3">
+                  <BiLogoTwitter />
+                </div>
+              </Link>
+              <Link
+                target="_blank"
+                href={"https://www.instagram.com/campaignakrt/"}
+              >
+                <div className="rounded-full border border-brand_gray  text-lg text-white p-3">
+                  <BiLogoInstagram />
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="w-full pt-10 lg:pt-0 lg:w-3/12  lg:pr-5 font-semibold text-white">
+          <div className="flex items-center ">
+            <div className="lg:text-xl xl:text-3xl">
+              <BiSolidPhoneCall />
+            </div>
+            <p className="pl-4 lg:text-[12px] text-sm">+91 8709299736</p>
+          </div>
+          <div className="flex pt-4 items-center">
+            <div>
+              <img
+                className="w-[20px] lg:w-[25px]"
+                src="/assets/images/@.png"
+              />
+            </div>
+            <p className="pl-3 lg:pl-2 xl:pl-5 lg:text-[12px]  xl:text-sm">
+              support@campaignkart.com
+            </p>
+          </div>
+          <div className="flex pt-4 ">
+            <div>
+              <img className="w-[90px]" src="/assets/images/search.png" />
+            </div>
+            <p className="pl-5 lg:text-[12px]">
+              CampaignKart Adtech Pvt Ltd, Cabin number - 4.10, 4th floor, 175 &
+              176, Bannerghatta Main Rd ,Dollars Colony,Phase 4,J.P
+              Nagar,Bengaluru,Karnataka 560076.1234,Street Name,New York,NY
+              10000,USA
+            </p>
+          </div>
+        </div>
+        <div className="w-full pt-10 lg:pt-0 lg:w-3/12  font-semibold text-white">
+          <Link
+            shallow
+            target="_blank"
+            href="https://maps.app.goo.gl/21Q9kpYPZVj92R5G7"
+          >
+            <div className="w-full">
+              <img src="/assets/images/map.png" />
+            </div>
+          </Link>
+        </div>
+        <div className="w-full pt-10 lg:pt-0 lg:w-3/12 flex  lg:justify-center   ">
+          <div>
+            <p className="text-xl  text-white font-semibold">Useful Links</p>
+            <ul className="text-brand_gray pt-4 ">
+              <Link shallow href={"/contact"}>
+                <li className="">{">"}Contact</li>
+              </Link>
+              <Link shallow href={"/services"}>
+                {" "}
+                <li  className="pt-2">{">"}Our Services</li>
+              </Link>
+              <Link shallow href={"/terms-and-condition"}>
+                <li className="pt-2">{">"}Terms & Condition</li>
+              </Link>
+              <Link href={"/privacy-policy"}>
+                <li className="pt-2">{">"}Privacy Policy</li>
+              </Link>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="text-center text-brand_gray pt-6 pb-10">
+        <p>CampaignKart Business Consulting. © 2023. All Rights Reserved</p>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
