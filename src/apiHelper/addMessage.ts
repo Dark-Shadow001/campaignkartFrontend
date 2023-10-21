@@ -22,7 +22,7 @@ const AddMessage = async(data:Iform)=> {
     return {success:false, message:"data submission failed"}
    }
  } catch (error:any) {
-    return {success:false, message:error.message}
+  throw Error(error.response.data.message|| error.message||error)
  }
 }
 

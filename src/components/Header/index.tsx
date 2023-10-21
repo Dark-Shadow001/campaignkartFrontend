@@ -171,6 +171,7 @@ const Header = () => {
           <RiCloseFill />
         </div>
       </aside>
+      <CustomNotification/>
     </div>
   );
 };

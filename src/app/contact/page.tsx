@@ -29,7 +29,6 @@ const ContactUs = () => {
         phone: phone,
         message: message,
       });
-
       if (apiResult.success === true) {
         dispatch(
           addNotification({
@@ -39,12 +38,22 @@ const ContactUs = () => {
             severity: "success",
           })
         );
+        setLoading(false);
+        setName("");
+        setEmail("");
+        setPhone("");
+        setMessage("");
+      }else if(apiResult.success === false){
+        dispatch(
+          addNotification({
+            id: new Date().valueOf(),
+            message: "Form submission failed",
+            open: true,
+            severity: "error",
+          })
+        );
       }
       setLoading(false);
-      setName("");
-      setEmail("");
-      setPhone("");
-      setMessage("");
     } catch (error) {
       dispatch(
         addNotification({

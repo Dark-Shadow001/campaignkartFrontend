@@ -35,10 +35,10 @@ const BlogCard = ({ item }: { item: IBlogs }) => {
                 </p>
               </div>
               <div className="border-r-2 px-3 border-r-brand_text">
-                <p>{item.created_by.name}</p>
+                <p>{item.created_by?.name}</p>
               </div>
               <div className="hidden xl:block border-r-2 px-3 border-r-brand_text">
-                <p>{item.category.name}</p>
+                <p>{item.category?.name}</p>
               </div>
               <div className="hidden xl:block  px-3 ">
                 <p>{item.comments?.length} Comments</p>
