@@ -83,8 +83,7 @@ const Footer = () => {
             <p className="pl-5 lg:text-[12px]">
               CampaignKart Adtech Pvt Ltd, Cabin number - 4.10, 4th floor, 175 &
               176, Bannerghatta Main Rd ,Dollars Colony,Phase 4,J.P
-              Nagar,Bengaluru,Karnataka 560076.1234,Street Name,New York,NY
-              10000,USA
+              Nagar,Bengaluru,Karnataka 560076.
             </p>
           </div>
         </div>
@@ -108,7 +107,7 @@ const Footer = () => {
               </Link>
               <Link shallow href={"/services"}>
                 {" "}
-                <li  className="pt-2">{">"}Our Services</li>
+                <li className="pt-2">{">"}Our Services</li>
               </Link>
               <Link shallow href={"/terms-and-condition"}>
                 <li className="pt-2">{">"}Terms & Condition</li>
