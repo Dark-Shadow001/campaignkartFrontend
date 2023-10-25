@@ -163,13 +163,13 @@ const BlogDetails = ({
 
   return (
     <div className=" ">
-      <div className="h-[20vh] bg-brand_bggray pb-16 pt-16 text-center ">
+      <div className="h-auto bg-brand_bggray pb-16 pt-16 text-center ">
         <div className="text-[11px] uppercase">
           <Breadcrumbs />
         </div>
         <p className=" px-10 pb-4 lg:text-3xl bg-brand_bggray pt-3 font-semibold">{data.title}</p>
       </div>
-      <div className= "mt-0 xl:mt-0 lg:mt-[4%]    md:pt-0">
+      <div className= "">
         <img className="w-full" src="/assets/images/layer2.png" />
       </div>
       <div className="flex flex-wrap py-10 lg:px-20 px-10 justify-start">
