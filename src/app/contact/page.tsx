@@ -89,11 +89,11 @@ const ContactUs = () => {
                 <div className="pl-3">
                   <p className="text-xl font-semibold">CampaignKart</p>
                   <p className="text-[12px] w-[80%] pt-1 text-brand_text">
-                  Address 1 : CampaignKart Adtech Pvt Ltd,Bannerghatta Main Rd ,Dollars
+                  <strong>Address 1:</strong>  CampaignKart Adtech Pvt Ltd,Bannerghatta Main Rd ,Dollars
                     Colony,Phase 4,J.P Nagar,Bengaluru,Karnataka 560076
                   </p>
                   <p className="text-[12px] w-[80%] pt-1 text-brand_text">
-                  Address 2 :  CAMPAIGNKART - FZCO, IFZA Property FZCO, Dubai Silicon
+                  <strong>Address 2:</strong> CAMPAIGNKART - FZCO, IFZA Property FZCO, Dubai Silicon
                     Oasis, DDP, Building A2, Dubai, United Arab Emirates
                   </p>
                 </div>

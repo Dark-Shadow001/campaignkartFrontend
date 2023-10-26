@@ -82,11 +82,11 @@ const Footer = () => {
             </div>
             <div className="pl-5 lg:text-[12px]">
               <p className="text-[12px] w-[80%] pt-1 ">
-               Address 1: CampaignKart Adtech Pvt Ltd,Bannerghatta Main Rd ,Dollars
+              <strong className="font-bold text-brand_headings">Address 1 :</strong> CampaignKart Adtech Pvt Ltd,Bannerghatta Main Rd ,Dollars
                 Colony,Phase 4,J.P Nagar,Bengaluru,Karnataka 560076
               </p>
               <p className="text-[12px] w-[80%] pt-1 ">
-               Address 2: CAMPAIGNKART - FZCO, IFZA Property FZCO, Dubai Silicon Oasis,
+              <strong className="font-bold text-brand_headings">Address 2 :</strong> CAMPAIGNKART - FZCO, IFZA Property FZCO, Dubai Silicon Oasis,
                 DDP, Building A2, Dubai, United Arab Emirates
               </p>
             </div>
