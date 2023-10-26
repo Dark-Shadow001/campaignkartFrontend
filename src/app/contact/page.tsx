@@ -104,7 +104,7 @@ const ContactUs = () => {
                 <p className="text-brand_headings text-sm text-center font-semibold">
                   SUPPORT
                 </p>
-                <div className="flex items-center">
+                <div className="flex pt-2 items-center">
                   <div>
                     <div className="flex ">
                       <div className="text-brand_headings">
@@ -112,7 +112,7 @@ const ContactUs = () => {
                       </div>
                       <p className="text-sm pl-2">+91 8709299736</p>
                     </div>
-                    <div className="flex pt-2">
+                    <div className="flex pt-1">
                       <div className="text-brand_headings">
                         <BiSolidPhoneCall />
                       </div>
@@ -125,7 +125,7 @@ const ContactUs = () => {
                 <p className="text-brand_headings text-sm text-center font-semibold">
                   Sales
                 </p>
-                <div className="flex items-center">
+                <div className="flex pt-2 items-center">
                   <div className="text-brand_headings">
                     <BiSolidPhoneCall />
                   </div>
@@ -141,7 +141,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className=" w-full rounded-lg lg:rounded-r-lg lg:w-4/12  xl:h-[100vh] 3xl:h-[90vh] px-10 py-10 md:px-10 md:py-10  lg:px-10 xl:px-16 lg:py-10 xl:py-14 bg-brand_black">
+        <div className=" w-full rounded-lg lg:rounded-r-lg lg:w-4/12 lg:h-[90vh] xl:h-[100vh] 3xl:h-[90vh] px-10 py-10 md:px-10 md:py-10  lg:px-10 xl:px-16 lg:py-10 xl:py-14 bg-brand_black">
           <div>
             <p className=" lg:text-xl xl:text-3xl  text-white font-semibold">
               Send Us a Message and Learn More About our services.

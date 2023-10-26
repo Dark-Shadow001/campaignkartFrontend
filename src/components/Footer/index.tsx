@@ -63,7 +63,7 @@ const Footer = () => {
             <div className="lg:text-xl xl:text-3xl">
               <BiSolidPhoneCall />
             </div>
-            <p className="pl-4 lg:text-[12px] text-sm">+91 8709299736</p>
+            <p className="pl-4 lg:text-[12px] text-sm">+91 8709299736 , +971 503512680</p>
           </div>
           <div className="flex pt-4 items-center">
             <div>
