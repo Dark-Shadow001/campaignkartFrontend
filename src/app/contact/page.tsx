@@ -43,7 +43,7 @@ const ContactUs = () => {
         setEmail("");
         setPhone("");
         setMessage("");
-      }else if(apiResult.success === false){
+      } else if (apiResult.success === false) {
         dispatch(
           addNotification({
             id: new Date().valueOf(),
@@ -89,9 +89,12 @@ const ContactUs = () => {
                 <div className="pl-3">
                   <p className="text-xl font-semibold">CampaignKart</p>
                   <p className="text-[12px] w-[80%] pt-1 text-brand_text">
-                    CampaignKart Adtech Pvt Ltd, Cabin number - 4.10, 4th floor,
-                    175 & 176, Bannerghatta Main Rd ,Dollars Colony,Phase 4,J.P
-                    Nagar,Bengaluru,Karnataka 560076.
+                  Address 1 : CampaignKart Adtech Pvt Ltd,Bannerghatta Main Rd ,Dollars
+                    Colony,Phase 4,J.P Nagar,Bengaluru,Karnataka 560076
+                  </p>
+                  <p className="text-[12px] w-[80%] pt-1 text-brand_text">
+                  Address 2 :  CAMPAIGNKART - FZCO, IFZA Property FZCO, Dubai Silicon
+                    Oasis, DDP, Building A2, Dubai, United Arab Emirates
                   </p>
                 </div>
               </div>
@@ -102,10 +105,20 @@ const ContactUs = () => {
                   SUPPORT
                 </p>
                 <div className="flex items-center">
-                  <div className="text-brand_headings">
-                    <BiSolidPhoneCall />
+                  <div>
+                    <div className="flex ">
+                      <div className="text-brand_headings">
+                        <BiSolidPhoneCall />
+                      </div>
+                      <p className="text-sm pl-2">+91 8709299736</p>
+                    </div>
+                    <div className="flex pt-2">
+                      <div className="text-brand_headings">
+                        <BiSolidPhoneCall />
+                      </div>
+                      <p className="text-sm pl-2">+971 503512680</p>
+                    </div>
                   </div>
-                  <p className="text-sm pl-2">+91 8709299736</p>
                 </div>
               </div>
               <div>
@@ -132,11 +145,6 @@ const ContactUs = () => {
           <div>
             <p className=" lg:text-xl xl:text-3xl  text-white font-semibold">
               Send Us a Message and Learn More About our services.
-            </p>
-            <p className="text-brand_text text-[12px] xl:text-sm pt-3">
-              Cras a elit sit amet leo accumsan volutpat. Suspendisse
-              hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a
-              elit sit amet.
             </p>
           </div>
           <div className="pt-6">

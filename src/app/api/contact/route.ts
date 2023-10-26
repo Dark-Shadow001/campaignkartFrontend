@@ -11,7 +11,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
   const { name, email, message, phone } = body; //destructuring
 
   if (!name || !email || !message) {
-    return NextResponse.json({ message: "incomplete data submitted" });
+    return NextResponse.json({ message: "incomplete data submitted" },{status:500});
   }
 
   try {
