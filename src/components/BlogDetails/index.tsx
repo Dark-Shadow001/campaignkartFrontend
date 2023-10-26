@@ -310,12 +310,12 @@ const BlogDetails = ({
                     key={item._id}
                     className="flex py-2 items-center space-x-1"
                   >
-                    <p className="text-[10px] text-brand_text">
+                    <p className="text-[10px] text-black">
                       {">"}
                       {truncateText(item.name,5)} on
                     </p>
                     <Link shallow href={`/blog/${item.blog?.slug}`}>
-                      <p className="text-sm">{truncateText(item.blog?.title,20)}</p>
+                      <p className="text-sm text-brand_secondary">{truncateText(item.blog?.title,20)}</p>
                     </Link>
                   </div>
                 ))}
