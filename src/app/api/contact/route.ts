@@ -28,7 +28,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
 
     const adminMail = await transporter.sendMail({
       from: "support@campaignkart.com", // sender address
-      to: "crypticmetadev@gmail.com", // list of receivers
+      to: "support@campaignkart.com", // list of receivers
       subject: `${name} filled the form`, // Subject line
       html: createAdminTemplate(body),
     });
@@ -39,6 +39,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
       subject: `Thank you for reaching out to us`, // Subject line
       html: createUserTemplate(body),
     });
+
 
     return NextResponse.json({ status: 200, message: "successfull" });
   } catch (error:any) {
