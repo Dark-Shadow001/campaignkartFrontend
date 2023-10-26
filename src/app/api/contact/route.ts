@@ -28,7 +28,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
 
     const adminMail = await transporter.sendMail({
       from: "support@campaignkart.com", // sender address
-      to: "pranavcampaignkart@gmail.com", // list of receivers
+      to: "support@campaignkart.com", // list of receivers
       subject: `${name} filled the form`, // Subject line
       html: createAdminTemplate(body),
     });
