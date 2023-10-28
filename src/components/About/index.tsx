@@ -7,14 +7,14 @@ const About = () => {
     <div className=" flex  flex-wrap justify-between pt-16 py-10 px-10 md:px-20">
       <div className="w-full md:w-5/12 flex space-x-2">
         <div className="h-full ">
-          <img className="h-full rounded-md" src="/assets/images/about1.png" />
+          <img loading="lazy" alt="about images" className="h-full rounded-md" src="/assets/images/about1.png" />
         </div>
         <div className="  h-full ">
           <div className="h-1/2">
-            <img className="h-full rounded-md" src="/assets/images/about2.png" />
+            <img loading="lazy" alt="about images" className="h-full rounded-md" src="/assets/images/about2.png" />
           </div>
           <div className="h-1/2 rounded-md  bg-red-400">
-            <img  className="h-full mt-1 rounded-md"  src="/assets/images/about3.png" />
+            <img loading="lazy" alt="about images"  className="h-full mt-1 rounded-md"  src="/assets/images/about3.png" />
           </div>
         </div>
       </div>

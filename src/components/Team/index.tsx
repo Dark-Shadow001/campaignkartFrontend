@@ -65,7 +65,7 @@ const Team = () => {
                 <div className="w-3/12 md:p-4 lg:p-2 xl:p-4">
                    <div className="bg-white rounded-md cardShadow">
                       <div className="h-[70%] rounded-t-md bg-brand_secondary bg-opacity-20 py-10 flex justify-center">
-                        <img className="lg:w-[80%] p-6 lg:p-0 rounded-full" src="/assets/images/teamMember1.png"/>
+                        <img loading = "lazy" alt="team member 1" className="lg:w-[80%] p-6 lg:p-0 rounded-full" src="/assets/images/teamMember1.png"/>
                       </div>
                       <div className="px-2  py-4">
                         <p className="text-md font-semibold">Pranav Kumar</p>
@@ -76,7 +76,7 @@ const Team = () => {
                 <div className="w-3/12 md:p-4 lg:p-2  xl:p-4">
                    <div className="bg-white rounded-md cardShadow">
                    <div className="h-[70%] rounded-t-md bg-brand_secondary bg-opacity-20 py-10 flex justify-center">
-                        <img className="lg:w-[80%]  p-6 lg:p-0  rounded-full" src="/assets/images/teamMember2.png"/>
+                        <img loading = "lazy" alt="team member 2" className="lg:w-[80%]  p-6 lg:p-0  rounded-full" src="/assets/images/teamMember2.png"/>
                       </div>
                       <div className="px-2 py-4">
                         <p className="text-md font-semibold">Shivanand Kumar</p>
@@ -87,7 +87,7 @@ const Team = () => {
                 <div className="w-3/12 md:p-4 lg:p-2  xl:p-4">
                    <div className="bg-white rounded-md cardShadow">
                    <div className="h-[70%] rounded-t-md bg-brand_secondary bg-opacity-20 py-10 flex justify-center">
-                        <img className="lg:w-[80%]  p-6 lg:p-0  rounded-full" src="/assets/images/teamMember3.png"/>
+                        <img loading = "lazy" alt="team member 3" className="lg:w-[80%]  p-6 lg:p-0  rounded-full" src="/assets/images/teamMember3.png"/>
                       </div>
                       <div className="px-2 py-4">
                         <p className="text-md font-semibold">Ashutosh Kumar</p>
@@ -98,7 +98,7 @@ const Team = () => {
                 <div className="w-3/12 md:p-4 lg:p-2  xl:p-4">
                    <div className="bg-white rounded-md cardShadow">
                    <div className="h-[70%] rounded-t-md bg-brand_secondary bg-opacity-20 py-10 flex justify-center">
-                        <img className="lg:w-[80%]  p-6 lg:p-0  rounded-full" src="/assets/images/teamMember4.png"/>
+                        <img loading = "lazy" alt="team member 4" className="lg:w-[80%]  p-6 lg:p-0  rounded-full" src="/assets/images/teamMember4.png"/>
                       </div>
                       <div className="px-2 py-4">
                         <p className="text-md font-semibold">Khushi Kumari</p>

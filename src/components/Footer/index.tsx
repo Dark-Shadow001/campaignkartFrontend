@@ -99,7 +99,7 @@ const Footer = () => {
             href="https://maps.app.goo.gl/21Q9kpYPZVj92R5G7"
           >
             <div className="w-full">
-              <img src="/assets/images/map.png" />
+              <img loading="lazy" alt="map" src="/assets/images/map.png" />
             </div>
           </Link>
         </div>

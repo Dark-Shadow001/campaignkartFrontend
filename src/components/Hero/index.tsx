@@ -25,7 +25,7 @@ const Hero = () => {
       </div>
       <div className="w-full hidden md:block md:w-7/12">
          <div>
-            <img src="/assets/images/consulting.png"/>
+            <img loading="lazy" alt="hero image" src="/assets/images/consulting.png"/>
          </div>
       </div>
     </div>
