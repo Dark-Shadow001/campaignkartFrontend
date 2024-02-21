@@ -32,7 +32,7 @@ const Header = () => {
         <div className="wrapper md:w-[380px]  lg:w-[450px] xl:w-[500px]">
           <img
             className="md:w-full w-[80%] h-[60%] md:pb-4 md:h-full"
-            src="/assets/images/headerSv.png"
+            src="/assets/images/headerSvg.png"
           />
         </div>
         <div className="socials-container hidden md:flex items-center space-x-4 pr-20">
