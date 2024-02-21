@@ -110,7 +110,7 @@ const ContactUs = () => {
                       <div className="text-brand_headings">
                         <BiSolidPhoneCall />
                       </div>
-                      <p className="text-sm pl-2">+91 8709299736</p>
+                      <p className="text-sm pl-2">+971 503512680</p>
                     </div>
                     <div className="flex pt-1">
                       <div className="text-brand_headings">
