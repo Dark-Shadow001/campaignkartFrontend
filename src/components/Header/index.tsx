@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import {
   BiLogoFacebook,
-  BiLogoInstagram,
+  BiLogoLinkedIn,
   BiLogoTwitter,
   BiMenu,
 } from "react-icons/bi";
@@ -51,10 +51,10 @@ const Header = () => {
           </Link>
           <Link
             target="_blank"
-            href={"https://www.instagram.com/campaignakrt/"}
+            href={"https://www.linkedin.com/company/96931328/admin/feed/posts/"}
           >
             <div className="rounded-full hover:bg-blue-400 text-2xl p-3">
-              <BiLogoInstagram />
+              <BiLogoLinkedIn />
             </div>
           </Link>
         </div>
