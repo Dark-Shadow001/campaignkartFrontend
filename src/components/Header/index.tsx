@@ -6,6 +6,7 @@ import {
   BiLogoTwitter,
   BiMenu,
 } from "react-icons/bi";
+import { FaLinkedin } from "react-icons/fa";
 import { RiCloseFill } from "react-icons/ri";
 import Contact from "../Contact";
 import CustomNotification from "../customNotification";
@@ -54,7 +55,7 @@ const Header = () => {
             href={"https://www.linkedin.com/company/96931328/admin/feed/posts/"}
           >
             <div className="rounded-full hover:bg-blue-400 text-2xl p-3">
-              <BiLogoInstagram />
+              <FaLinkedin />
             </div>
           </Link>
         </div>

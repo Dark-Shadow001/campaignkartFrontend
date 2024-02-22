@@ -6,7 +6,7 @@ import {
   BiLogoTwitter,
   BiSolidPhoneCall,
 } from "react-icons/bi";
-
+import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
 const Footer = () => {
@@ -52,7 +52,7 @@ const Footer = () => {
                 href={"https://www.linkedin.com/company/96931328/admin/feed/posts/"}
               >
                 <div className="rounded-full border border-brand_gray  text-lg text-white p-3">
-                  <BiLogoInstagram />
+                  <FaLinkedin />
                 </div>
               </Link>
             </div>
