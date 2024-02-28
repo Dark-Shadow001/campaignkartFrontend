@@ -11,20 +11,7 @@ import Link from "next/link";
 
 const Footer = () => {
 
-  <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/65dedfbb9131ed19d972b0d1/1hnn9jtq5';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-  return (
+return (
     <div className=" bg-brand_darkgray px-10 md:px-20">
       <div className="branding py-6 flex flex-wrap md:justify-between items-center border-b border-b-brand_gray">
         <div className="text-white font-bold text-2xl">
