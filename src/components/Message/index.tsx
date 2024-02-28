@@ -65,7 +65,7 @@ const Message = () => {
             Send Us a Message and Learn More About our services.
           </p>
           <p className="text-brand_text text-sm pt-3">
-            Connect. Create. Captivate. Get in touch with CampaignKart today! - ye conntent get in touch
+            Connect. Create. Captivate. Get in touch with CampaignKart today! - ye connect get in touch
           </p>
         </div>
         <div className="pt-6">
