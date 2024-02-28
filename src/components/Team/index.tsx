@@ -53,10 +53,7 @@ const Team = () => {
         <div className= "md:w-7/12 text-center">
         <p className="text-4xl font-semibold">Our Amazing Team</p>
           <p className="text-sm pt-4 text-brand_text ">
-            Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast
-            ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet
-            leo acun volutpat. Suspendisse hendrerit vehicula leo, vel efficitur
-            fel.
+            At Campaignkart, we believe that the strength of our agency lies in the expertise and dedication of our team. Comprising creative minds, strategic thinkers, and digital enthusiasts, our team is committed to delivering unparalleled solutions for your brand.
           </p>
         </div>
         </div>
