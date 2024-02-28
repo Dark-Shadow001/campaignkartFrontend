@@ -65,8 +65,7 @@ const Message = () => {
             Send Us a Message and Learn More About our services.
           </p>
           <p className="text-brand_text text-sm pt-3">
-            Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast
-            ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet.
+            Connect. Create. Captivate. Get in touch with CampaignKart today! - ye conntent get in touch
           </p>
         </div>
         <div className="pt-6">
