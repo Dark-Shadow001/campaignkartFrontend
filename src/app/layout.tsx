@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   description: "Consulting company",
 };
 
+
 export default function RootLayout({
   children,
 }: {
